@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+#navitems{
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+#navitems >a{
+  text-decoration: none;
+  color: white;
+}
+
+.content{
+  margin-top: 1rem;
+}
+
+.r2{
+
+  padding-top: 50px;
+}
+
+.cardbox{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 800px){
+  #user_card{
+    flex-direction: column;
+  }
+  .mentorblock{
+    margin: auto;
+
+  }
+  
+}
+#user_card{
+  background: aquamarine;
+  width: 100%;
+  padding-left: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  margin: 2px;
+
+}
+
+.list_option{
+  margin-left: auto;
+}
+
+#ijob{
+  color: orange;
+}
+#iemail{
+  color: violet;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  
+}
+
+.subform{
+  display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.profilepic{
+  width:120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit:cover
+  
+}
+
+.mentorblock{
+  margin-left: auto;
+}
+
+
+.filterbut{
+  margin: 1rem;
+}
